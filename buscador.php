@@ -15,9 +15,6 @@ if(!empty($_POST)) {
 } else {
     $localizaciones = select("localizaciones", $camposSql);
 }
-
-
-
 ?>
 
 <html>
